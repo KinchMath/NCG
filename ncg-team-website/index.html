@@ -6,16 +6,14 @@
     <title>NCG Team</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
     <link href="assets/css/styles.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/css/lightbox.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/css/lightbox.min.css" rel="lightbox">
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
-                <a href="#"><img src="/workspaces/NCG/ncg-team-website/assets/images/NCGLogo.png" alt="NCGLogo" style="height: 50px;"></a>
-            </div>
-            <div class="logo">
-                <a href="#"><img src="/workspaces/NCG/ncg-team-website/assets/images/MULogo.png" alt="MULogo" style="height: 50px;"></a>
+                <a href="#"><img src="assets/images/NCGLogo.png" alt="NCGLogo" style="height: 50px;""></a>
+                <a href="#"><img src="assets/images/MULogo.png" alt="MULogo" style="height: 50px;"></a>
             </div>
             <ul>
                 <li><a href="#about" class="active">About NCG</a></li>
@@ -36,17 +34,17 @@
             <h1>The Team</h1>
             <div id="team-profiles">
                 <div class="profile-card">
-                    <img src="/workspaces/NCG/ncg-team-website/assets/images/martinChar.jpg" alt="Dr. Martin Charlton">
+                    <img src="assets/images/martinChar.png" alt="Dr. Martin Charlton">
                     <h2>Dr. Martin Charlton</h2>
                     <p></p>
                 </div>
                 <div class="profile-card">
-                    <img src="/workspaces/NCG/ncg-team-website/assets/images/ChrisBrunsdon.jpg" alt="Dr. Chris Brunsdon">
-                    <h2>Dr. Chris Brunsdon</h2>
+                    <img src="assets/images/ChrisBrunsdon.jpg" rel="lightbox" alt="Prof. Chris Brunsdon">
+                    <h2>Prof. Chris Brunsdon</h2>
                     <p>Director of the National Centre for Geocomputation</p>
                 </div>
                 <div class="profile-card">
-                    <img src="/workspaces/NCG/ncg-team-website/assets/images/KevinCredit.jpg" alt="Dr. Kevin Credit">
+                    <img src="assets/images/KevinCredit.jpg" rel="lightbox" alt="Dr. Kevin Credit">
                     <h2>Dr. Kevin Credit</h2>
                     <p>Lecturer/Assistant Professor</p>
             </div>
@@ -62,6 +60,14 @@
                 
                     The aim of my SPUR 2024 project was to catalogue the books in the office of the late Dr. Martin Charlton in an effort to preserve, spread, and memorialize his lifetime of work. I then go on to study the data and trends in the field of Geocomputation through the lens of the bookshelf. 
                 </p>
+                <div class="project-images">
+                    <a href="assets/images/paper-image.jpg" data-lightbox="projects" data-title="SPUR Paper">
+                        <img src="assets/images/paper-image.png" alt="SPUR Paper" style="width: 200px; height: auto;">
+                    </a>
+                    <a href="assets/images/poster-image.jpg" data-lightbox="projects" data-title="SPUR Poster">
+                        <img src="assets/images/poster-image.png" alt="SPUR Poster" style="width: 200px; height: auto;">
+                    </a>
+                </div>
             </div>
         </section>
 
@@ -75,7 +81,6 @@
         </section>
     </main>
 
-    <!-- Footer -->
     <footer>
         <p>&copy; National Centre for Geocomputation (NCG)</p>
     </footer>
